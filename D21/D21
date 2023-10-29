@@ -1,1 +1,12 @@
-
+public class Main {
+    
+    public static void main(String[] args) {
+       
+         int nilai = 3;
+        int angka = 2;
+        System.out.println(angka=angka);
+        System.out.println(angka!=angka);
+ 
+       }
+    
+}
