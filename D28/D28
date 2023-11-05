@@ -1,1 +1,16 @@
+public class VariabelJava {
+    public static void main(String[] args) {
+       
+        int angka = 2;
+        double pecahan = 2.14;
+        String teks = "Ini adalah contoh variabel";
+        
+        angka = 3;
+        pecahan = 2.518;
+        teks = "Variabel telah diubah";
 
+        System.out.println("Nilai angka setelah diubah: " + angka);
+        System.out.println("Nilai pecahan setelah diubah: " + pecahan);
+        System.out.println("Nilai teks setelah diubah: " + teks);
+    }
+}
