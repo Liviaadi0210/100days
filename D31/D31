@@ -1,1 +1,15 @@
+public class Main {
+	public static void main(String[] args) {
+	
+			int value = 10;
+        value += 5; // Sama dengan value = value + 5
+        value -= 3; // Sama dengan value = value - 3
+        value *= 2; // Sama dengan value = value * 2
+        value /= 4; // Sama dengan value = value / 4
+        value %= 3; // Sama dengan value = value % 3
 
+        System.out.println("Nilai setelah operasi assignment: " + value);
+    
+    
+	}
+}
