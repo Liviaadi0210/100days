@@ -15,7 +15,7 @@ import java.util.*;
         } else if (number % 5 == 0) {
             System.out.println("pride of 5");
         } else {
-            System.out.println("bodo inie tidak masuk dalam ketentuan angkamu");
+            System.out.println("kosong");
         }
     
    }
