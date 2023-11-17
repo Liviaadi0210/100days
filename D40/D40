@@ -1,1 +1,15 @@
+public class HitungAngkaGenap {
+    public static void main(String[] args) {
+        
+        int batasBawah = 1;
+        int batasAtas = 10;
 
+        System.out.println("Angka genap antara " + batasBawah + " dan " + batasAtas + ":");
+        
+        for (int i = batasBawah; i <= batasAtas; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
